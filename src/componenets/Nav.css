@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-start;
+
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.headerLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-start;
+
+  flex: 1;
+}
+.setting {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  color: white;
+  margin-right: 2px;
+}
+.title {
+  color: white;
+}
+.iconButton {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.divider {
+  display: block;
+}
